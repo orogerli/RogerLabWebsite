@@ -104,7 +104,7 @@ const  BlogDetailsPage = () => {
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
                       <Image
-                        src="/images/blog/blog-details-04.jpg"
+                        src="/images/blog/blog-details-04.JPG"
                         alt="image"
                         fill
                         className=" object-center"
