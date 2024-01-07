@@ -42,6 +42,11 @@ const AboutSectionThree = () => {
                 paragraph="Currently, we have several openings for Volunteer Research Assistants: ~ 5-10 hours/week; flexible working hours"
                 mb="10px"
               />
+              <SectionTitle
+                title="Professional Researchers / Research Faculty"
+                paragraph="From time-to-time, we may have openings for professional (or post-doctoral) researchers. Please contact the Principal Investigator for details."
+                mb="44px"
+              />
 
               <SectionTitle
                 title=""
@@ -92,7 +97,7 @@ const AboutSectionThree = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about4.jpg"
+                  src="/images/about/about4.JPG"
                   alt="about-image"
                   width={500} // Replace widthValue with the actual width of your image
                   height={500} // Replace heightValue with the actual height of your image
