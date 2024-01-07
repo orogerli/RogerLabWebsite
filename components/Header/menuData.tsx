@@ -9,18 +9,18 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Work",
+    title: "Publications",
     newTab: false,
     submenu: [
       {
         id: 21,
-        title: "Presentation",
+        title: "Presentations",
         path: "/presentations",
         newTab: false,
       },
       {
         id: 22,
-        title: "Publication",
+        title: "Publications",
         path: "/publications",
         newTab: false,
       }
@@ -49,13 +49,13 @@ const menuData: Menu[] = [
   },
   {
     id: 3,
-    title: "Research Partcipant",
+    title: "Research Partcipants",
     path: "/signup",
     newTab: false,
   },
   {
     id: 4,
-    title: "Opportunity",
+    title: "Opportunities",
     path: "/opportunity",
     newTab: false,
     
