@@ -117,7 +117,7 @@ const  BlogDetailsPage = () => {
                   </h3>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                   {item2029.map((item, index) => (
-                  <li style={{ fontSize: '10px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
+                  <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
                   <div></div>
@@ -126,7 +126,7 @@ const  BlogDetailsPage = () => {
                   </h3>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                   {items2019.map((item, index) => (
-                  <li style={{ fontSize: '10px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
+                  <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
 
@@ -135,7 +135,7 @@ const  BlogDetailsPage = () => {
                   </h3>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                   {items2009.map((item, index) => (
-                  <li style={{ fontSize: '10px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
+                  <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
                   
