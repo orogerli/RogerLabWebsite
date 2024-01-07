@@ -53,9 +53,9 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <h1 style={{fontSize: '24px', color: 'darkblue',}} className=" dark:hidden">Roger Li Lab</h1>
+                <h1 style={{fontSize: '24px', color: 'darkblue',}} className=" dark:hidden">Li Lab</h1>
 
-                <h1 style={{fontSize: '24px'}} className="hidden dark:block">Roger Li Lab</h1>
+                <h1 style={{fontSize: '24px'}} className="hidden dark:block">Li Lab</h1>
                 {/*<Image
                   src="/images/logo/CollegeLogo.jpg"
                   alt="logo"
