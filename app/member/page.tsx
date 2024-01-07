@@ -23,14 +23,16 @@ const Blog = () => {
 
   const researchassit=[
     'Murielle Cayemitte (NSUCO)',
-'Nada Bleibel (NSU, pre-Opt)',
+'Nada Bleibel (NSU, pre-Opt, Independent Study)',
 'Riya Vadalia (NSU, Pre-Med)',
+'Sophie Song (NSUCO)',
 'Taylor Zinkler (UF, Pre-DPsy)',
 'Triet Do (NSU, Comp)',
 
   ]
   const shadow=[
-    'Charlene Y. Li (Cooper City High, Pre-Med)',
+    'Charlene Li (Cooper City High, Pre-Med)',
+    'Emily Mello (Cypress Bay High Pre-Med)',
   ]
   const member=[]
   return (
@@ -40,7 +42,7 @@ const Blog = () => {
         <div className="container">
 
         <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-           Principel Investigator
+           Principal Investigator
         </h3>
           <ul className="mb-10 list-inside list-disc text-body-color">
           {principle.map((item, index) => (
@@ -59,7 +61,7 @@ const Blog = () => {
 
 
           <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-           Assistant Lab Manager
+           Assistant Lab Managers
         </h3>
           <ul className="mb-10 list-inside list-disc text-body-color">
           {assitantlabmanager.map((item, index) => (
@@ -68,7 +70,7 @@ const Blog = () => {
           </ul>
 
           <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-           Project Manager
+           Project Managers
         </h3>
           <ul className="mb-10 list-inside list-disc text-body-color">
           {assitantlabmanager.map((item, index) => (
@@ -77,7 +79,7 @@ const Blog = () => {
           </ul>
 
           <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-           Research Assistant
+           Research Assistants
         </h3>
           <ul className="mb-10 list-inside list-disc text-body-color">
           {researchassit.map((item, index) => (
@@ -86,7 +88,7 @@ const Blog = () => {
           </ul>
 
           <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-           Shadow Student
+           High School Students
         </h3>
           <ul className="mb-10 list-inside list-disc text-body-color">
           {shadow.map((item, index) => (
