@@ -60,31 +60,31 @@ const BlogDetailsPage = () => {
                 
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                 <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                  Award and Honor
+                  Awards and Honor
                   </h3>
                   
                   <ul className="mb-10 list-inside list-disc text-body-color">
                   {itema.map((item, index) => (
-                  <li style={{ fontSize: '10px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
+                  <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
                   
 
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                  Conference Travel Grant
+                  Conference Travel Grants
                   </h3>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                   {itemstg.map((item, index) => (
-                  <li style={{ fontSize: '10px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
+                  <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
 
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Research Fellowship
+                    Research Fellowships
                   </h3>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                   {itemsrf.map((item, index) => (
-                  <li style={{ fontSize: '10px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
+                  <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
                   
