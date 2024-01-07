@@ -38,15 +38,16 @@ const AboutSectionThree = () => {
                 mb="44px"
               />
               <SectionTitle
-                title="Research Assistants"
-                paragraph="Currently, we have several openings for Volunteer Research Assistants: ~ 5-10 hours/week; flexible working hours"
-                mb="10px"
-              />
-              <SectionTitle
                 title="Professional Researchers / Research Faculty"
                 paragraph="From time-to-time, we may have openings for professional (or post-doctoral) researchers. Please contact the Principal Investigator for details."
                 mb="44px"
               />
+              <SectionTitle
+                title="Research Assistants"
+                paragraph="Currently, we have several openings for Volunteer Research Assistants: ~ 5-10 hours/week; flexible working hours"
+                mb="10px"
+              />
+
 
               <SectionTitle
                 title=""
