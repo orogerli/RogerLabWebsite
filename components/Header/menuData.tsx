@@ -34,13 +34,13 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 51,
-        title: "Member",
+        title: "Members",
         path: "/member",
         newTab: false,
       },
       {
         id: 52,
-        title: "Award",
+        title: "Awards",
         path: "/award",
         newTab: false,
       }
