@@ -18,7 +18,7 @@ const SignupPage = () => {
       <section className="relative z-10 overflow-hidden pt-36 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
+          
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Amblyopia (“Lazy Eye”) Treatment Study"
@@ -30,7 +30,7 @@ const SignupPage = () => {
                 paragraph="In the study, participants will be asked to look at a series of patterns on a monitor screen and make simple perceptual judgments. If you or your child has amblyopia and would like to participate, please contact the Principal Investigator"
                 mb="44px"
               /> 
-            </div>
+            
 
             
           </div>
