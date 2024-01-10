@@ -25,55 +25,25 @@ const AboutSectionThree = () => {
             <div className="w-full px-3 lg:w-1/2">
               <SectionTitle
                 title=""
-                paragraph="Our research focuses on clinical vision science. Over the past two decades, our laboratory has conducted a series of pioneering perceptual learning studies and have invented many groundbreaking treatment protocols for improving visual performance in patients with amblyopia. Li's famous video game experiment published in PLoS Biology (2011) has received a lot of attention from the mass media. With the support of RPB Disney Award for Amblyopia Research, the research team is currently working towards developing a new stereoscopic treatment for restoring stereo vision in patients with amblyopia using 3D video games. "
+                paragraph="As a clinician scientist, I have a long-term interest in spatial and pattern vision. My recent research focuses on developing new treatments for amblyopia, commonly known as “lazy eye”, using a novel perceptual learning approach (Nature Neuroscience, 2004). The conventional treatment for amblyopia consists of patching or penalizing the fellow preferred eye, pushing the brain to use the weaker amblyopic eye. Amblyopia was thought to be not reversible after the critical periods of visual development. Encouragingly, my research (Journal of Vision, 2004; Journal of Neuroscience, 2008) has shown that adult amblyopia still retains a significant degree of visual plasticity."
                 mb="44px"
               />
               <SectionTitle
                 title=""
-                paragraph="The research laboratory has published extensively in numerous flagship scientific and clinical journals - including Nature Neuroscience, PLoS Biology, Ophthalmology, Philosophical Transactions of the Royal Society B: Biological Sciences and Journal of Neuroscience. Since 2014, our research team has been awarded altogether 17 competitive travel grants from the American Academy of Optometry and Association for Research in Vision and Ophthalmology. The laboratory also supports collaborative research with our clinical faculty in the college."
+                paragraph="Over the past two decades, my collaborators and I have developed numerous amblyopia treatment regimens and have conducted a series of pioneering perceptual learning studies. In particular, our recent research demonstrates that video-game play may have unique features for sharpening amblyopic vision (e.g., PLoS Biology, 2011 ; Ophthalmology, 2018). With the support of Research to Prevent Blindness (RPB) Walt and Lilly Disney Award for Amblyopia Research (2022), the research team is currently working towards developing a new stereoscopic treatment for restoring stereo vision in patients with amblyopia using 3D video games."
                 mb="44px"
               />
               <SectionTitle
                 title=""
-                paragraph="As a research optometrist, Li has a long-standing research interest in basic and clinical vision science - from amblyopia, visual psychophysics, myopic control, aging eye, visual electrophysiology to retinal and brain imaging. "
+                paragraph="The goals of our research are to study human visual perception and the underlying processing mechanisms, develop new treatment techniques for amblyopia, advance the understanding of visual plasticity of the brain, and translate the knowledge gained into developing clinical techniques for the diagnosis and treatment of ocular/visual disorders."
                 mb="44px"
               />
-              <SectionTitle
-                title=""
-                paragraph="The goals of our research are to "
-                mb="10px"
-              />
+              
 
-              <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full">
-                    <List text="study human visual perception and the underlying processing mechanisms,"  />
-                    <List text="develop new treatment techniques for amblyopia, " />
-                    <List text="advance the understanding of visual plasticity of the brain, and " />
-                    <List text="translate the knowledge gained into developing clinical techniques for the diagnosis and treatment of ocular/visual disorders."/>
-                  </div>
-                </div>
-              </div>
+              
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/about4.JPG"
-                  alt="about-image"
-                  width={500} // Replace widthValue with the actual width of your image
-                  height={500} // Replace heightValue with the actual height of your image
-                  className="mx-auto max-w-full lg:mr-0"
-                />
-                
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
