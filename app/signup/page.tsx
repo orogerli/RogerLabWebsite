@@ -16,9 +16,7 @@ const SignupPage = () => {
   return (
     <>
       <section className="relative z-10 overflow-hidden pt-36 pb-16 md:pb-20 lg:pt-[180px] lg:pb-28">
-      <div className="container">
-          
-            <div className="w-full px-4 lg:w-1/2">
+        <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Amblyopia (“Lazy Eye”) Treatment Study"
                 paragraph="Children and adults with amblyopia are invited to participate in a clinical research trial conducted at the Nova Southeastern University College of Optometry. This research is set out to develop and evaluate a new vision training approach for improving lazy eye."
@@ -29,12 +27,15 @@ const SignupPage = () => {
                 paragraph="In the study, participants will be asked to look at a series of patterns on a monitor screen and make simple perceptual judgments. If you or your child has amblyopia and would like to participate, please contact the Principal Investigator"
                 mb="44px"
               /> 
+      <div className="container">
+          
+            
             
 
             
           
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="w-full px-4 ">
               <SectionTitle
                 title="(2)	3D Vision Study "
                 paragraph="Adults with normal vision are invited to participate in a 3D vision study conducted at the Nova Southeastern University College of Optometry. "
