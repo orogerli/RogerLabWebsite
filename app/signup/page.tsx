@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
 import SectionTitle from "@/components/Common/SectionTitle2";
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -34,19 +32,7 @@ const SignupPage = () => {
               /> 
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/Volunteer1.png"
-                  alt="about-image"
-                  fill
-                  className="mx-auto  lg:mr-0"
-                />
-              </div>
-            </div>
+            
           </div>
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
@@ -61,19 +47,7 @@ const SignupPage = () => {
                 mb="44px"
               /> 
             </div>
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/Volunteer2.jpg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto  lg:mr-0"
-                />
-              </div>
-            </div>
+           
 
             
           </div>
