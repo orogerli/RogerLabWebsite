@@ -50,7 +50,7 @@ const AboutSectionThree = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about4.jpg"
+                  src="/images/about/about4.JPG"
                   alt="about-image"
                   width={500} // Replace widthValue with the actual width of your image
                   height={500} // Replace heightValue with the actual height of your image
