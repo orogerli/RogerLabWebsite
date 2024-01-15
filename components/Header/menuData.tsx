@@ -14,14 +14,14 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 21,
-        title: "Presentations",
-        path: "/presentations",
+        title: "Publications",
+        path: "/publications",
         newTab: false,
       },
       {
         id: 22,
-        title: "Publications",
-        path: "/publications",
+        title: "Presentations",
+        path: "/presentations",
         newTab: false,
       }
 
