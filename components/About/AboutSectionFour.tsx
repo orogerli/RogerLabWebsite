@@ -24,71 +24,33 @@ const AboutSectionThree = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-3 lg:w-1/2">
               <SectionTitle
-                title="Undergraduate Research "
-                paragraph="Comming Soon"mb="44px"
-              />
-              <SectionTitle
-                title="Undergraduate/postgraduate Research: Independent Study"
-                paragraph="For those who are interested in taking course credits by volunteering in our research lab, we are currently accepting students for Independent Study. Interested students are welcome to contact the Principal Investigator for more details, and submit a brief resume and career plan for applying."
-                mb="44px"
-              />
-              <SectionTitle
-                title="Postgraduate Research"
-                paragraph="Comming Soon"
-                mb="44px"
-              />
-              <SectionTitle
                 title="Professional Researchers / Research Faculty"
                 paragraph="From time-to-time, we may have openings for professional (or post-doctoral) researchers. Please contact the Principal Investigator for details."
                 mb="44px"
               />
+
               <SectionTitle
                 title="Research Assistants"
                 paragraph="Currently, we have several openings for Volunteer Research Assistants: ~ 5-10 hours/week; flexible working hours"
                 mb="10px"
               />
-
-
+              
               <SectionTitle
-                title=""
-                paragraph="Responsibilities"
-                mb="10px"
+                title="Undergraduate Research "
+                paragraph="For those who are interested in taking course credits by volunteering in our research lab, we are currently accepting students for Independent Study. Interested students are welcome to contact the Principal Investigator for more details, and submit a brief resume and career plan for applying."
+                mb="44px"
               />
-
-              <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full">
-                    <List text="Recruiting, screening, and scheduling study participants "  />
-                    <List text="Work with amblyopic and healthy participants on psychophysical experiments" />
-                    <List text="Participate as a research participant for data collection " />
-                  </div>
-                </div>
-              </div>
-
+              
               <SectionTitle
-                title=""
-                paragraph="Excellent Opportunity to"
-                mb="10px"
+                title="Postgraduate Research"
+                paragraph="Comming Soon"
+                mb="44px"
               />
+              
 
-              <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full">
-                  <List text="Gain research experience in a leading amblyopia laboratory"/>
-                  <List text="Learn about the latest developments in Vision Science"/>
-                  <List text="Present at research conferences"/>
-                  <List text="Work on your own research under supervision"/>
-                  <List text="Participate in the scholarly publication process"/>
-                  <List text="Prepare for further residency and research training"/>
+              
 
-                  </div>
-                </div>
+              
               </div>
             </div>
 
