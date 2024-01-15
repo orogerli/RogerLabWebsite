@@ -24,6 +24,7 @@ const Blog = () => {
   const researchassit=[
     'Murielle Cayemitte (NSUCO)',
 'Nada Bleibel (NSU, pre-Opt, Independent Study)',
+'Aliya DeJesus (NSU, pre-Opt)',
 'Riya Vadalia (NSU, Pre-Med)',
 'Sophie Song (NSUCO)',
 'Taylor Zinkler (UF, Pre-DPsy)',
@@ -73,7 +74,7 @@ const Blog = () => {
            Project Managers
         </h3>
           <ul className="mb-10 list-inside list-disc text-body-color">
-          {assitantlabmanager.map((item, index) => (
+          {projectmanager.map((item, index) => (
           <li  className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
           ))}
           </ul>
@@ -96,15 +97,6 @@ const Blog = () => {
           ))}
           </ul>
 
-
-        <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-           Past Member
-        </h3>
-          <ul className="mb-10 list-inside list-disc text-body-color">
-          {member.map((item, index) => (
-          <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
-          ))}
-          </ul>
 
           
         </div>
