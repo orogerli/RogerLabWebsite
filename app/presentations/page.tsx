@@ -120,7 +120,7 @@ const  BlogDetailsPage = () => {
                   <li style={{ fontSize: '15px' }} className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg" key={index}>{item}</li>
                   ))}
                   </ul>
-                  <div></div>
+                  
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     2010-2019
                   </h3>
