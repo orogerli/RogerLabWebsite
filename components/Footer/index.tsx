@@ -11,8 +11,8 @@ const Footer = () => {
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
-              <div className="mb-12 max-w-[360px] lg:mb-16">
-                <Link href="/" className="mb-8 inline-block">
+              <div className="mb-12 max-w-[2000px] lg:mb-16">
+                <Link href="/" className="mb-8 inline-block mr-4">
                   <Image
                     src="/images/logo/CollegeLogo.jpg"
                     alt="logo"
@@ -28,6 +28,24 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
+
+
+                <Link href="/" className="mb-8 inline-block mr-4">
+                  <Image
+                    src="/images/logo/CollegeLogo.jpg"
+                    alt="logo"
+                    className="w-full dark:hidden"
+                    width={140}
+                    height={30}
+                  />
+                  <Image
+                    src="/images/logo/rpb_logo4.jpg"
+                    alt="logo"
+                    className="hidden w-full dark:block"
+                    width={140}
+                    height={30}
+                  />
+                </Link>
                 
               </div>
             </div>
@@ -35,53 +53,25 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-5/12">
               <div className="mb-12 lg:mb-16">
                 
-                <ul>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Email: wli@nova.edu {" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      3233A Vision Science Laboratory  {" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      College of Optometry, Nova Southeastern University{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      Health Professions Division Library/Laboratory Building 2/F {" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
-                    >
-                      {" "}
-                      3200 South University Drive, Fort Lauderdale, FL 33328 {" "}
-                    </a>
-                  </li>
-                </ul>
+                <p>
+                Email: wli@nova.edu
+                </p>
+                <p> </p>
+                <p>
+                3233A Vision Science Laboratory
+                </p>
+                <p> </p>
+                <p>
+                College of Optometry, Nova Southeastern University
+                </p>
+                <p> </p>
+                <p>
+                Health Professions Division Library/Laboratory Building 2/F
+                </p>
+                <p> </p>
+                <p>
+                3200 South University Drive, Fort Lauderdale, FL 33328
+                </p>
               </div>
             </div>
           </div>
