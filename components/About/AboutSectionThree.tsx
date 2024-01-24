@@ -35,7 +35,7 @@ const AboutSectionThree = () => {
               />
               <SectionTitle
                 title=""
-                paragraph="As a research optometrist, Li has a long-standing research interest in basic and clinical vision science - from amblyopia, visual psychophysics, myopic control, aging eye, visual electrophysiology to retinal and brain imaging. "
+                paragraph="  "
                 mb="44px"
               />
 
