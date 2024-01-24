@@ -24,6 +24,11 @@ const AboutSectionThree = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-3 lg:w-1/2">
               <SectionTitle
+                title=""
+                paragraph=""
+                mb="44px"
+              />
+              <SectionTitle
                 title="Research Interests"
                 paragraph="As a clinician scientist, I have a long-term interest in spatial and pattern vision. My recent research focuses on developing new treatments for amblyopia, commonly known as “lazy eye”, using a novel perceptual learning approach (Nature Neuroscience, 2004). The conventional treatment for amblyopia consists of patching or penalizing the fellow preferred eye, pushing the brain to use the weaker amblyopic eye. Amblyopia was thought to be not reversible after the critical periods of visual development. Encouragingly, my research (Journal of Vision, 2004; Journal of Neuroscience, 2008) has shown that adult amblyopia still retains a significant degree of visual plasticity. "
                 mb="44px"
