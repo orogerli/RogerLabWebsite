@@ -3,7 +3,7 @@ import SectionTitle from "@/components/Common/SectionTitle";
 
 const Blog = () => {
   const principle=[
-    'Roger W. Li OD, PhD  (Associate Professor, Department of Optometry Research)',
+    'Roger W. Li OD, PhD  (Associate Professor, Department of Optometric Research)',
   ]
 
   const labmanager=[
